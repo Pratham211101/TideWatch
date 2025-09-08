@@ -1,12 +1,33 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TideWatch 🌊
 
-Currently, two official plugins are available:
+TideWatch is a modern, responsive web application built with React and Vite that helps users track tide levels, find the best fishing times, and manage their favorite coastal locations.
+It provides real-time tide data, nearest coastal station detection, and location-based services using APIs like StormGlass and OpenStreetMap.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features ✨
 
-## Expanding the ESLint configuration
+Real-Time Tide Tracking – Get accurate tide data for the nearest coastal station.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Location Detection – Automatically fetch your location using your browser's GPS.
+
+Best Fishing Times 🎣 – Displays ideal fishing windows based on tide and sun positions.
+
+Favorite Coasts ⭐ – Save, view, and manage favorite coastal locations.
+
+Offline Support – Caches tide data for 6 hours to reduce API calls and allow offline use.
+
+Modern UI – Built with TailwindCSS and Lucide icons for a sleek and minimal design.
+
+Tech Stack 🛠️
+
+Frontend: React + Vite
+
+Styling: Tailwind CSS
+
+Mapping: React-Leaflet + OpenStreetMap
+
+APIs: StormGlass, OpenStreetMap Nominatim
+
+State Management: React Hooks (useState, useEffect)
+
+Icons: Lucide React
