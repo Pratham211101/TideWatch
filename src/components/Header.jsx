@@ -14,12 +14,14 @@ export default function Header({setLocation,setPlace,place,getLocation,setTides,
   const clearLocation=()=>{
     localStorage.removeItem('user_location')
     localStorage.removeItem('user_place')
-    // localStorage.removeItem('cachedTideData');
+    localStorage.removeItem('cachedTideData')
+    localStorage.removeItem('favoriteCoasts')
+    localStorage.removeItem('nearestStation')
     setLocation(null)
     setPlace("")
     setShowLocation(false)
-    // setTides([])
-    // setNearestStation(null)
+    setTides([])
+    setNearestStation(null)
   }
 
   useEffect(()=>{
