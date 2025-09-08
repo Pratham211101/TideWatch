@@ -1,9 +1,7 @@
-import mockFavorites from '../public/mockFavorites.json'
+
 import { useState,useEffect } from "react"
 import axios from "axios"
 import findNearestCoast from "../util/nearestCoast"
-import haversineDistance from "../util/haversineFormula"
-import formatLocalTime from "../util/formatLocalTime"
 
 import TideMap from "./components/TideMap"
 import Header from "./components/Header"
@@ -199,7 +197,10 @@ function App() {
       }
     } catch (err) {
       console.error("API error, using mock data",err)
-      setTides(generateMockTides())
+      const mockResponse= await fetch('/mockTides.json')
+      const mockData = await mockResponse.json()
+
+      setTides(mockData.data)
       
     } finally {
       setLoading(false)
