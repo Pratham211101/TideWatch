@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "La Jolla Shores, CA",
+    "lat": 32.8505,
+    "lng": -117.2721,
+    "nextHigh": "2025-09-08T13:15:00Z",
+    "nextLow": "2025-09-08T19:40:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Cape Cod, MA",
+    "lat": 41.6688,
+    "lng": -70.2962,
+    "nextHigh": "2025-09-08T15:48:00Z",
+    "nextLow": "2025-09-08T21:22:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Byron Bay, AU",
+    "lat": -28.6474,
+    "lng": 153.602,
+    "nextHigh": "2025-09-08T04:06:00Z",
+    "nextLow": "2025-09-08T10:30:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Goa, India",
+    "lat": 15.2993,
+    "lng": 74.124,
+    "nextHigh": "2025-09-08T06:20:00Z",
+    "nextLow": "2025-09-08T12:45:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Santa Cruz Main Beach, CA",
+    "lat": 36.9623,
+    "lng": -122.023,
+    "nextHigh": "2025-09-08T12:03:00Z",
+    "nextLow": "2025-09-08T18:41:00Z"
+  }
+]

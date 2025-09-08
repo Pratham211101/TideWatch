@@ -1,0 +1,32 @@
+[
+  { "name": "New York Harbor", "city": "New York", "country": "USA", "lat": 40.7003, "lng": -74.014 },
+  { "name": "Sydney Harbor", "city": "Sydney", "country": "Australia", "lat": -33.8572, "lng": 151.2153 },
+  { "name": "Tokyo Bay", "city": "Tokyo", "country": "Japan", "lat": 35.6705, "lng": 139.7747 },
+  { "name": "Cape Town", "city": "Cape Town", "country": "South Africa", "lat": -33.9180, "lng": 18.4233 },
+
+
+  { "name": "Chennai Port", "city": "Chennai", "country": "India", "lat": 13.0827, "lng": 80.2707 },
+  { "name": "Kolkata Port", "city": "Kolkata", "country": "India", "lat": 22.5726, "lng": 88.3639 },
+  { "name": "Paradip Port", "city": "Paradip", "country": "India", "lat": 20.3160, "lng": 86.6113 },
+  { "name": "Visakhapatnam Port", "city": "Visakhapatnam", "country": "India", "lat": 17.6868, "lng": 83.2185 },
+  { "name": "Kakinada Port", "city": "Kakinada", "country": "India", "lat": 16.9891, "lng": 82.2475 },
+  { "name": "Ennore Port", "city": "Ennore", "country": "India", "lat": 13.2167, "lng": 80.3333 },
+  { "name": "Tuticorin Port", "city": "Thoothukudi", "country": "India", "lat": 8.7642, "lng": 78.1348 },
+  { "name": "Cochin Port", "city": "Kochi", "country": "India", "lat": 9.9667, "lng": 76.2333 },
+  { "name": "Mangalore Port", "city": "Mangalore", "country": "India", "lat": 12.9141, "lng": 74.8560 },
+  { "name": "Mumbai Port", "city": "Mumbai", "country": "India", "lat": 18.9489, "lng": 72.8355 },
+  { "name": "Nhava Sheva (JNPT)", "city": "Mumbai", "country": "India", "lat": 18.9483, "lng": 72.9536 },
+  { "name": "Kandla Port", "city": "Gandhidham", "country": "India", "lat": 23.0336, "lng": 70.2225 },
+  { "name": "Mundra Port", "city": "Mundra", "country": "India", "lat": 22.8393, "lng": 69.7050 },
+  { "name": "Hazira Port", "city": "Hazira", "country": "India", "lat": 21.1165, "lng": 72.6383 },
+  { "name": "Dahej Port", "city": "Dahej", "country": "India", "lat": 21.7000, "lng": 72.5000 },
+  { "name": "Dighi Port", "city": "Dighi", "country": "India", "lat": 18.4833, "lng": 72.9667 },
+  { "name": "Haldia Port", "city": "Haldia", "country": "India", "lat": 22.0333, "lng": 88.0833 },
+  { "name": "Port Blair", "city": "Port Blair", "country": "India", "lat": 11.6234, "lng": 92.7265 },
+  { "name": "Karwar Port", "city": "Karwar", "country": "India", "lat": 14.8000, "lng": 74.1333 },
+  { "name": "Bedi Port", "city": "Jamnagar", "country": "India", "lat": 22.5000, "lng": 70.0333 },
+  { "name": "Magdalla Port", "city": "Surat", "country": "India", "lat": 21.1667, "lng": 72.8333 },
+  { "name": "Vadinar Port", "city": "Vadinar", "country": "India", "lat": 22.4667, "lng": 69.7333 },
+  { "name": "Alang Shipyard", "city": "Alang", "country": "India", "lat": 21.4000, "lng": 72.2000 },
+  { "name": "Okha Port", "city": "Okha", "country": "India", "lat": 22.4667, "lng": 69.0833 }
+]
