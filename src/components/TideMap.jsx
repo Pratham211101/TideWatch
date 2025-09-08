@@ -1,8 +1,23 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { MapPin } from "lucide-react";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+
+import markerIcon from "leaflet/dist/images/marker-icon.png";
+import markerShadow from "leaflet/dist/images/marker-shadow.png";
 
 export default function TideMap({ station }) {
   if (!station) return null;
+
+  // Custom icon to ensure it's bundled properly
+  const customIcon = L.icon({
+    iconUrl: markerIcon,
+    shadowUrl: markerShadow,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41],
+  });
 
   const openInGoogleMaps = () => {
     const mapsUrl = `https://www.google.com/maps?q=${station.lat},${station.lng}`;
@@ -17,7 +32,7 @@ export default function TideMap({ station }) {
         <h2 className="text-base font-semibold text-gray-800">Location & Map</h2>
       </div>
 
-      {/* Map Display - FULL WIDTH */}
+      {/* Map Display */}
       <div className="flex-1 rounded-xl overflow-hidden">
         <MapContainer
           center={[station.lat, station.lng]}
@@ -26,7 +41,7 @@ export default function TideMap({ station }) {
           style={{ minHeight: "250px" }}
         >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-          <Marker position={[station.lat, station.lng]}>
+          <Marker position={[station.lat, station.lng]} icon={customIcon}>
             <Popup>{station.name}</Popup>
           </Marker>
         </MapContainer>
